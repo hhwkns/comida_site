@@ -33,25 +33,15 @@ export default {
   },
   data () {
   return {
-         mainProps: {
-           blank: false,
-           blankColor: '#777',
-           width: 350,
-           height: 350,
-           class: 'm1'
-         }
-       }
+    mainProps: {
+     blank: false,
+     blankColor: '#777',
+     width: 350,
+     height: 350,
+     class: 'm1'
+   }
+ }
 }
-//   gallery:[
-//     { picture: require('~/assets/food4.jpg'), alt:'our restaurant' },
-//     { picture: require('~/assets/edgar-castrejon.jpg'), alt:'fresh tacos' },
-//     { picture: require('~/assets/food1.jpg'), alt:'camarones con rojo' },
-//     { picture: require('~/assets/karly-gomez.jpg'), alt:'huevos rancheros' },
-//     { picture: require('~/assets/food6.jpg'), alt:'fresh steak and tacos' },
-//     { picture: require('~/assets/food3.jpg'), alt:'chips with homemade guacomole' }
-//   ],
-//   }
-// }
 }
 </script>
 
